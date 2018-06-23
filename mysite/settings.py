@@ -23,13 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 't_2b)n3s4m3duknpd!8u6%7$*+%u3$p=5fi@%_m224-a+so_)m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-my_domain = 'veverka.pythonanywhere.com'
-username = 'veverka'
-token = 'a1f3d734b7071ec433aa6be995b8f5f509aa8dbf'
-
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['veverka.pythonanywhere.com']
 
 
 # Application definition
